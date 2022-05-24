@@ -1,0 +1,10 @@
+.DS_Store
+/.env
+/.vscode
+
+cdk.context.json
+*/**/cdk.context.json
+
+node_modules/
+cdk.out/
+dist/
