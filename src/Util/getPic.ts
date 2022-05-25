@@ -13,7 +13,7 @@ export const getPic: Command = {
 
         await interaction.followUp({
             ephemeral: true,
-            content: content.pic_url + "\n" + content.title + "\n" + content.explanation
+            content:  content.title + "\n" + "\n" + content.explanation+ "\n" + "\n" + content.pic_url
         })
     }
 };

@@ -14,5 +14,3 @@ ready(client);
 interactionCreate(client);
 
 client.login(DISCORD_TOKEN);
-
-
