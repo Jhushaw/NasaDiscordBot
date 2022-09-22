@@ -10,7 +10,7 @@ export const kanyesays: Command = {
     type: "CHAT_INPUT",
     run: async (client: Client, interaction: BaseCommandInteraction) => {
         const content = await kanyeClass.getQuote();
-
+        console.log("kanye quote: " + content);
         await interaction.followUp({
             ephemeral: true,
             content:  content + "\n" + "- Kanye Rest"

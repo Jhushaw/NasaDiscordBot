@@ -14,7 +14,7 @@ export class KanyeQuote {
             method : 'GET',
             parse : 'json'
         });
-        console.log("response url: " + response.body.quote);
-        return response.body.quote
+        console.log("response quote: " + response.body.quote);
+        return response.body.quote;
     }
 }
